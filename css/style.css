@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+input {
+  font-size: calc(15px + 0.390625vw);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #eee;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: calc(10px + 0.390625vw);
+}
+
+h2,
+h3 {
+  font-weight: 400;
+}
+a,
+p,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+a,
+li,
+p,
+h3,
+h4,
+h6 {
+  font-size: calc(12px + 0.390625vw) !important;
+}
+
+h4 {
+  font-size: 0.9rem;
+}
+
+h5 {
+  font-size: 0.6rem;
+}
+
+.text-darkblue {
+  color: darkblue;
+}
+.social {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: black;
+  color: #fff;
+}
+/*--------------------------------------------------------------
+  # Back to top button
+  --------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #51ff7f;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: calc(15px + 0.390625vw);
+  color: #151515;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #151515;
+}
+
+.back-to-top:hover i {
+  color: #51ff7f;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+#indexTitle {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.boxs,
+.box {
+  padding: 10px 5px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  color: black;
+  box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.arrow {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+}
+
+/* hero */
+
+#hero {
+  background: url("../img/hrobg.jpg") top center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5; /* set the opacity value as needed */
+  background-color: #ffffff69; /* set the background color as needed */
+}
+.alphaBox {
+  min-height: 8rem;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  color: black;
+  box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+/* design 4 divedir style */
+.devider {
+  margin: 1rem 0;
+  height: 2px;
+  background: white;
+}

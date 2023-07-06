@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Login</title>
+    <title>Design 3</title>
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!--Favicon-->
@@ -39,8 +39,8 @@
             background-color: rgba(255, 255, 255, 0.6) !important;
         }
 
-        .bi-person {
-            padding: 25px 35px;
+        .ti-user {
+            padding: 25px;
             border: 2px solid gray;
             font-size: 50px;
             border-radius: 50%;
@@ -80,8 +80,8 @@
             <nav
                 class="col-lg-7 d-none d-lg-flex justify-content-end navbar navbar-expand-lg navbar-light bg-transparent">
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control form-control-lg rounded-pill" type="search" placeholder="nom d'Enterprise ou dirigeant"
-                        aria-label="Search">
+                    <input class="form-control form-control-lg rounded-pill" type="search"
+                        placeholder="nom d'Enterprise ou dirigeant" aria-label="Search">
                     <button class="btn btn-primary btn-lg text-white rounded-pill my-2 my-sm-0 px-4" type="submit"
                         style="margin-left: -38px;"><i class="bi-search text-white"></i>
                     </button>
@@ -89,37 +89,30 @@
                 <a class="navbar-brand" href="#"><img src="lg1.png" alt="" class="ml-5"></a>
             </nav>
         </div>
-        <div class="row mt-5">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4">
-                <div class="card bg-white mb-3 mx-lg-5 mx-2">
-                    <!-- <img src="profile.jpg" class="card-img-top" style="width:35%;"> -->
-                    <div class="card-body pt-5 text-left">
-                        <p class="text-center mb-5"><i class="bi-person"></i></p>
-                        <div class="form-group d-flex">
-                            <span class="bi-envelope" style="margin-top:12px;"></span> <!-- Themify icon for lock -->
-                            <input type="email"
-                                class="form-control bg-transparent border-secondary rounded-0 border-left-0 border-right-0 border-top-0"
-                                placeholder="Identifiant">
-                        </div>
-                        <div class="form-group d-flex">
-                            <span class="bi-lock" style="margin-top:12px;"></span> <!-- Themify icon for lock -->
-                            <input type="password"
-                                class="form-control bg-transparent border-secondary rounded-0 border-left-0 border-right-0 border-top-0"
-                                placeholder="Mot de passe">
-                        </div>
-                        <button type="submit" class="btn btn-secondary btn-sm">se connector</button>
-                    </div>
-                    <div class="card-footer p-4 text-center">
-                        <a href="" class="font-weight-bold text-secondary">S'inscrire</a>
+        <!-- Content here  -->
+
+        <div id="hero" class="row p-lg-3 mt-lg-5 mt-0">
+            <div class="col-12 col-md-4 col-lg-4 mt-3">
+                <div class="mb-5 d-flex align-items-center justify-content-center">
+                    <div class="mt-5">
+                        <img src="img/profile.jpg" class="img-fluid rounded-pill" alt="img">
                     </div>
                 </div>
+
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-12 col-md-6 col-lg-6 mt-1">
+                <h2 class="text-start fw-bold">Mon Compte</h2>
+                <div class=" mb-5">
+                    <input class="p-1 my-2 w-100" type="text"> <br>
+                    <input class="p-1 my-2 w-100" type="text"> <br>
+                    <input class="p-1 my-2 w-100" type="text"> <br>
+                    <input class="p-1 my-2 w-100" type="text">
+                </div>
+            </div>
         </div>
     </div>
-
-
+    </div>
+    </div>
 
     <!-- plugins -->
     <script src="plugins/jQuery/jquery.min.js"></script>
